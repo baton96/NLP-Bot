@@ -8,7 +8,7 @@ person = 'Bartek Paulewicz'
 
 #SymSpell
 #sym_spell = SymSpell()
-#sym_spell.load_dictionary('50k.txt', 0, 1, encoding='utf-8')
+#sym_spell.load_dictionary('wordFrequencies.txt', 0, 1, encoding='utf-8')
 #wordSeg = sym_spell.word_segmentation
 
 with open("marcin.json", "r", encoding='latin1') as raw, open("both.txt", "w", encoding='utf-8') as out:
